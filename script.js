@@ -24,4 +24,3 @@ for (let i of palavras) {
 }
     return palavras;
 }
-<!=
