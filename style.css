@@ -2,7 +2,7 @@
 
 :root {
     --cor-destaque: hwb(298 85% 0%);
-    --cor-gradiente-preto: rgb(251, 133, 255);
+    --cor-gradiente-preto: #d8bbfa;
 }
 
 * {
@@ -16,7 +16,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 16px 21px 18px 21px;
-    background: rgb(0, 0, 0);
+    background: #d8bbfa;
     height: 100vh;
     flex-direction: column;
 }
@@ -52,7 +52,7 @@ h1 {
 }
 
 #entrada-de-texto::placeholder {
-    color: #828282;
+    color: #e5ffd3;
     font-size: 2rem;
     font-weight: 400;
     line-height: normal;
@@ -67,7 +67,7 @@ h1 {
     border-radius: 0.5rem;
     border: none;
     background: var(--cor-destaque);
-    color: #000;
+    color: #d8bbfa;
     font-size: 2.5rem;
     font-weight: 500;
     line-height: normal;
